@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white_opaque_90">#E6FFFFFF</color>
+    <color name="white_opaque_30">#4CFFFFFF</color>
+    <color name="white_opaque_40">#66FFFFFF</color>
+    <color name="white_opaque_50">#7EFFFFFF</color>
+    <color name="white_opaque_60">#97FFFFFF</color>
+    <color name="white_opaque_70">#B3FFFFFF</color>
+    <color name="white_opaque_20">#33FFFFFF</color>
+    <color name="white_opaque_10">#1AFFFFFF</color>
+    <color name="login_item_bg_color">#f3f3f3</color>
+    <color name="black_opaque_90">#E6000000</color>
+    <color name="black_opaque_30">#4C000000</color>
+    <color name="black_opaque_50">#80000000</color>
+    <color name="black_opaque_60">#97000000</color>
+    <color name="black_opaque_70">#B3000000</color>
+    <color name="black_opaque_20">#33000000</color>
+    <color name="black_opaque_10">#1A000000</color>
+    <color name="black_opaque_5">#0C000000</color>
+    <color name="black_opaque_80">#cd000000</color>
+</resources>

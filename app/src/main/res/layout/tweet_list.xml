@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:layout_margin="3dp"
+    android:background="@color/black_opaque_5"
+    tools:context="com.src.ui.MainActivity">
+    <AutoCompleteTextView
+        android:id="@+id/search_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/fc_rounded_corners_rectangle"
+        android:drawablePadding="8dp"
+        android:hint="Search tag"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/search_icon_new"
+        android:textColor="@color/black_opaque_80"
+        android:textColorHint="@color/black_opaque_50"
+        android:textSize="14sp"
+        android:transitionName="searchTransition" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/lview"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:dividerHeight="3dp"
+        android:divider="@color/black_opaque_5"
+        android:layout_below="@+id/search_text"
+        android:layout_height="wrap_content"></ListView>
+    <RelativeLayout
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_centerVertical="true"
+            android:max="10000" />
+    </RelativeLayout>
+</RelativeLayout>
